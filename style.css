@@ -95,3 +95,22 @@ body, html {
     background: hsl(300, 69%, 71%);
     color: hsl(300, 26%, 85%);
 }
+
+.container .left-footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1px;
+    align-self: flex-end;
+    margin-bottom: 2em;
+}
+
+.left-footer a{
+    text-decoration: none;
+    font-size: 1.8em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.left-footer a:hover {
+    color: hsl(300, 69%, 71%);
+}
