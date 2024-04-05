@@ -98,10 +98,10 @@ body, html {
 
 .container .left-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 1.2em;
     align-self: flex-end;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .left-footer a{
